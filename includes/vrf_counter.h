@@ -74,6 +74,6 @@ static struct
 
 
 //this is a function you are looking for
-std::vector<Routing_Table> do_vrf_request(const char* vrf_name);
+std::vector<Routing_Table> get_vrf_by_name(const char* vrf_name);
 
 #endif //VRF_COUNTER
